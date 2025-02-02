@@ -35,10 +35,12 @@ class Array_ArrayList{
           
             //2. Implement a java function that finds 2 neighboring numbers in an array with the smallest distance to each
 
-            //For even array 
-            int temp = 0;
-            for(int n=0; n<evenCount;n++){
-                even[n]  
+            //For above even array
+            temp = Math.abs(even[0]-even[1]);
+            for(int n=1; n<evenCount;n++){
+               if(temp > Math.abs(even[n]-even[n+1])) {
+                temp = Math.abs(even[n]-even[n+1]);
+                }
             }
 
        }
