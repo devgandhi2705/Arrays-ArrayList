@@ -11,7 +11,7 @@ class Array_ArrayList{
            Scanner sc = new Scanner(System.in);
 
            //Performing for action for 5 numbers
-           for(int i=1; i<=5;i++){
+           for(int i=1; i<6;i++){
               System.out.println("Enter a number: ");
               int n = sc.nextInt();
               if(n%2==0){
@@ -19,19 +19,17 @@ class Array_ArrayList{
               }else{
                  odd[oddCount++] = n;
               }
+            }
 
             System.out.print("Even numbers: ");
             for(int j = 0; j < evenCount; j++) {
                  System.out.println(even[j] + " ");
             }
        
-        
             System.out.print("Odd numbers: ");
             for (int k = 0; k < oddCount; k++) {
                  System.out.println(odd[k] + " ");
             }
 
- 
-           }
        }
 }
