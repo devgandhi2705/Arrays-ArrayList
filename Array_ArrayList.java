@@ -23,12 +23,12 @@ class Array_ArrayList{
 
             System.out.print("Even numbers: ");
             for(int j = 0; j < evenCount; j++) {
-                 System.out.println(even[j] + " ");
+                 System.out.print(even[j] + " ");
             }
        
             System.out.print("Odd numbers: ");
             for (int k = 0; k < oddCount; k++) {
-                 System.out.println(odd[k] + " ");
+                 System.out.print(odd[k] + " ");
             }
 
        }
