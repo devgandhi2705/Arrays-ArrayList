@@ -57,8 +57,16 @@ class Array_ArrayList{
             
             //3. Converting Arrays into Arraylist and Vice Versa.
             
-             int[] arr = {2,4,6,8};
-             ArrayList<Integer> arrls = new ArrayList<>();
+            // Array to ArrayList
+            String[] array = {"One", "Two", "Three"};
+            List<String> arrayList = new ArrayList<>(Arrays.asList(array));
+
+            System.out.println("ArrayList: " + arrayList);
+
+            // ArrayList to Array
+            String[] newArray = arrayList.toArray(new String[0]);
+
+            System.out.println("Array: " + Arrays.toString(newArray));
               
              
        }
