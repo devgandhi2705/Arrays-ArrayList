@@ -1,5 +1,9 @@
 import java.util.*;
 
+//Dev gandhi
+//A2
+//23070126046
+
 class Array_ArrayList{
        public static void main(String args[]){
            //1. Even and Odd Separaton into 2 different Arrays
