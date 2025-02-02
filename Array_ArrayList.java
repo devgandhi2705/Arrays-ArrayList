@@ -27,17 +27,19 @@ class Array_ArrayList{
             for(int j = 0; j < evenCount; j++) {
                  System.out.print(even[j] + " ");
             }
+            System.out.println(); 
        
             System.out.print("Odd numbers: ");
             for (int k = 0; k < oddCount; k++) {
                  System.out.print(odd[k] + " ");
             }
+            System.out.println();
           
             //2. Implement a java function that finds 2 neighboring numbers in an array with the smallest distance to each
 
             //For above even array
             int temp = Math.abs(even[0]-even[1]);
-            int m = 0; 
+            int m = 0;
             for(int n=1; n<evenCount;n++){
                if(temp > Math.abs(even[n]-even[n+1])) {
                 temp = Math.abs(even[n]-even[n+1]);
@@ -46,7 +48,18 @@ class Array_ArrayList{
             }
 
             //Print Output
+            System.out.print("The Array is: ");
+            for(int a = 0; a < evenCount; a++) {
+                 System.out.print(even[a] + " ");
+            }
+            System.out.println(); 
             System.out.println("The Index is: " + m);  
-
+            
+            //3. Converting Arrays into Arraylist and Vice Versa.
+            
+             int[] arr = {2,4,6,8};
+             ArrayList<Integer> arrls = new ArrayList<>();
+              
+             
        }
 }
